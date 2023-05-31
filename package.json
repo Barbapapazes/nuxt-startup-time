@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-startup-time",
+  "description": "An experimental script to ensure nuxt start up time in dev mode",
+  "scripts": {
+    "dev": "jiti ./src/index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "Barbapapazes <e.soubiran25@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "eslint": "^8.41.0",
+    "jiti": "^1.18.2",
+    "nuxt": "^3.5.2"
+  },
+  "packageManager": "pnpm@8.6.0",
+  "dependencies": {
+    "@antfu/eslint-config": "^0.39.4"
+  }
+}
